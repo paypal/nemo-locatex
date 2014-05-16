@@ -14,7 +14,7 @@
     "async": "~0.2.8"
   },
   "peerDependencies": {
-    "nemo-drivex": "git+ssh://git@github.com:paypal/nemo-drivex.git"
+    "nemo-drivex": "*"
   },
   "keywords": [
     "Nemo",
