@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.paypal.com/NodeTestTools/nemo-locatex.git"
+    "url": "https://github.com/paypal/nemo-locatex.git"
   },
   "dependencies": {
     "async": "~0.2.8"
   },
   "peerDependencies": {
-    "nemo-drivex": "^0.1.0"
+    "nemo-drivex": "git://github.com/paypal/nemo-drivex.git#master"
   },
   "keywords": [
     "Nemo",
