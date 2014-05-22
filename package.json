@@ -14,7 +14,7 @@
     "async": "~0.2.8"
   },
   "peerDependencies": {
-    "nemo-drivex": "*"
+    "nemo-drivex": "^0.1.0"
   },
   "keywords": [
     "Nemo",
