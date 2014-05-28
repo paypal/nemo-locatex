@@ -4,7 +4,7 @@
   "description": "Add Locale behavior to Nemo locators",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,13 @@
   },
   "peerDependencies": {
     "nemo-drivex": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.10.0",
+    "chai": "~1.6.0",
+    "grunt": "~0.4.1",
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-contrib-jshint": "~0.7.1"
   },
   "keywords": [
     "Nemo",
