@@ -2,6 +2,8 @@
 
 Specify different Nemo locator objects per-locale.
 
+[![Build Status](https://travis-ci.org/paypal/nemo-drivex.svg?branch=master)](https://travis-ci.org/paypal/nemo-drivex)
+
 ### Installation
 
 * Add nemo-locatex to your package.json (see nemo-locatex package.json for version)
