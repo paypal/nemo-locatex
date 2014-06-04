@@ -27,6 +27,5 @@ module.exports = {
 
 		}.bind(result);
 		callback(null, config, returnObj);
-
 	}
 };
