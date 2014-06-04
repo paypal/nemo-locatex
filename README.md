@@ -3,6 +3,7 @@
 Specify different Nemo locator objects per-locale.
 
 Register as "locatex" (see below)
+
 [![Build Status](https://travis-ci.org/paypal/nemo-drivex.svg?branch=master)](https://travis-ci.org/paypal/nemo-drivex)
 
 ### Installation
