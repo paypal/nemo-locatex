@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "Add Locale behavior to Nemo locators",
   "main": "index.js",
+  "registerAs": "locatex",
   "scripts": {
     "test": "grunt"
   },
