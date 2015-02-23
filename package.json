@@ -1,6 +1,6 @@
 {
   "name": "nemo-locatex",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Add Locale behavior to Nemo locators",
   "main": "index.js",
   "registerAs": "locatex",
@@ -30,8 +30,10 @@
     "locale"
   ],
   "author": "Matt Edelman",
-  "licenses": [{
-    "type": "Apache 2.0",
-    "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-  }]
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ]
 }
