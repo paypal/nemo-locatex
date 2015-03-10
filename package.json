@@ -1,6 +1,6 @@
 {
   "name": "nemo-locatex",
-  "version": "0.1.4",
+  "version": "0.4.2",
   "description": "Add Locale behavior to Nemo locators",
   "main": "index.js",
   "registerAs": "locatex",
@@ -15,7 +15,8 @@
     "async": "~0.2.8"
   },
   "peerDependencies": {
-    "nemo-drivex": "^0.1.0"
+    "nemo-drivex": "^0.4.0",
+    "nemo": "^0.4.0"
   },
   "devDependencies": {
     "mocha": "~1.10.0",
