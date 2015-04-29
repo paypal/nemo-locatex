@@ -14,10 +14,6 @@
   "dependencies": {
     "async": "~0.9.0"
   },
-  "peerDependencies": {
-    "nemo": "^1.0.0",
-    "nemo-drivex": "https://github.com/benmarten/nemo-drivex.git#dev"
-  },
   "devDependencies": {
     "mocha": "~2.2.4",
     "chai": "~2.3.0",
