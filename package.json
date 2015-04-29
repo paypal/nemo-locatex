@@ -1,6 +1,6 @@
 {
   "name": "nemo-locatex",
-  "version": "0.4.2",
+  "version": "1.0.0",
   "description": "Add Locale behavior to Nemo locators",
   "main": "index.js",
   "registerAs": "locatex",
@@ -12,18 +12,14 @@
     "url": "https://github.com/paypal/nemo-locatex.git"
   },
   "dependencies": {
-    "async": "~0.2.8"
-  },
-  "peerDependencies": {
-    "nemo-drivex": "^0.4.0",
-    "nemo": "^0.4.0"
+    "async": "~0.9.0"
   },
   "devDependencies": {
-    "mocha": "~1.10.0",
-    "chai": "~1.6.0",
-    "grunt": "~0.4.1",
+    "mocha": "~2.2.4",
+    "chai": "~2.3.0",
+    "grunt": "~0.4.5",
     "grunt-simple-mocha": "~0.4.0",
-    "grunt-contrib-jshint": "~0.7.1"
+    "grunt-contrib-jshint": "~0.11.2"
   },
   "keywords": [
     "Nemo",
