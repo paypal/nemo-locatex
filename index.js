@@ -27,6 +27,6 @@ module.exports = {
       return locatr[locale] || locatr['default'] || locatr;
 
     };
-    callback(null, nemo);
+    callback(null);
   }
 };
