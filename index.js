@@ -15,7 +15,7 @@
 /* global module: true */
 'use strict';
 module.exports = {
-  'setup': function (config, nemo, callback) {
+  'setup': function (nemo, callback) {
     nemo.locatex = function locatex(_locator) {
       var locale = (nemo.props && nemo.props.locale) ? nemo.props.locale : 'default',
         args = Array.prototype.slice.call(arguments),
@@ -27,6 +27,6 @@ module.exports = {
       return locatr[locale] || locatr['default'] || locatr;
 
     };
-    callback(null, config, nemo);
+    callback(null, nemo);
   }
 };

@@ -11,19 +11,16 @@
     "type": "git",
     "url": "https://github.com/paypal/nemo-locatex.git"
   },
-  "dependencies": {
-    "async": "~0.2.8"
-  },
   "peerDependencies": {
-    "nemo-drivex": "^0.4.0",
-    "nemo": "^0.4.0"
+    "nemo": "^2.1.1"
   },
   "devDependencies": {
-    "mocha": "~1.10.0",
-    "chai": "~1.6.0",
-    "grunt": "~0.4.1",
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
     "grunt-simple-mocha": "~0.4.0",
-    "grunt-contrib-jshint": "~0.7.1"
+    "mocha": "^2.4.5",
+    "nemo": "^2.1.1"
   },
   "keywords": [
     "Nemo",
@@ -31,6 +28,10 @@
     "locale"
   ],
   "author": "Matt Edelman",
+  "contributors": [
+    "Matt Edelman <medelman@paypal.com>",
+    "Gabriel Csapo <gacsapo@paypal.com>"
+  ],
   "licenses": [
     {
       "type": "Apache 2.0",

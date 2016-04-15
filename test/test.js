@@ -1,19 +1,42 @@
-var NemoLocateX = require("../index");
+var assert = require('chai').assert;
+var Nemo = require('nemo');
+var Locatex = require("../index");
 var returnObj = {
 	"driver": true,
 	"wd": true
 };
 describe("nemo-locatex ", function () {
+
+	it('should setup with nemo', function(done) {
+		var nemo = Nemo({
+		  "driver": {
+		    "browser": "phantomjs"
+			},
+			'plugins': {
+	        'locatex': {
+	          'module': 'path:../../index'
+	        }
+	      }
+		}, function (err) {
+		  if (err) {
+			  throw 'Error during Nemo setup';
+		  }
+		  assert.isObject(nemo, 'nemo is an object');
+		  assert.isDefined(nemo.driver, 'driver is defined');
+		  assert.isDefined(nemo.wd, 'wd is defined');
+		  assert.isDefined(nemo.locatex, 'locatex is defined');
+		  assert.isFunction(nemo.locatex, 'locatex is a function');
+		  nemo.driver.quit();
+		  done();
+		});
+	})
+
 	it("should get set up", function (done) {
-		NemoLocateX.setup({}, returnObj, function (err, config, returnObj) {
-			if (returnObj.locatex) {
-				//console.log("user", returnObj.user);
-				done()
-			} else if (err) {
-				done(err)
-			} else {
-				done(new Error("Didn't get drivex object back"))
-			}
+		var nemo = {};
+		Locatex.setup(nemo, function () {
+			assert.isObject(nemo, 'nemo is an object');
+			assert.isFunction(nemo.locatex, 'locatex is a function');
+			done();
 		})
 	});
 });
