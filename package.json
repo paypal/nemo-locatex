@@ -16,11 +16,11 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.7.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
     "grunt-simple-mocha": "~0.4.0",
-    "nemo": "^2.1.1",
-    "mocha": "~1.10.0"
+    "mocha": "^2.4.5",
+    "nemo": "^2.1.1"
   },
   "keywords": [
     "Nemo",
